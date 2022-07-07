@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>Ingenieria en Mecanica</title>
+<link href="css/style.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/4759086155.js" crossorigin="anonymous"></script>
+</head>
+<body bgcolor="#949AAA" text="#000000">  
+
+<center><p><h1>INGENIERIA EN MECATRONICA</h1></p></center>
+
+<a href="#">
+<center><p><img src="img/inicio.jpg"></p></a></center>
+
+<a href="mecatronica.html">
+<center><p><img src="img/Mecatronica.jpg"></p></center></a>
+
+<a href="importancia.html">
+<center><p><img src="img/Importancia.jpg"></p></a></center>
+
+<a href="analisemos.html">
+<center><p><img src="img/Analizemos.jpg"></p></center></a>
+
+<p>La Mecatrónica es una ingeniería que une conocimientos de mecánica
+electrónica, informática y los sistemas de control.
+El objetivo de un ingeniero en mecatrónica es mejorar procesos automatizados a través del diseño
+la planeación y el desarrollo de productos y servicios que se aplican
+en industrias como la automotriz y la aeronáutica, por mencionar algunas.</p>
+
+<center><h1>¿COMO............GENIERIA MECATRONICA INGENIERIAS?</h1></center>
+<p>Lo primero que debes tener en cuenta es que se trata de un área multidisciplinaria.
+Esto quiere decir que requiere de conocimientos y técnicas de otras ingenierías,como:</p>
+<p>*Ingeniería Mecánica: Utiliza los conocimientos de la física para la elaboración,
+el mantenimiento y la instalación de maquinaria en procesos de producción, principalmente.</p>
+
+<p>*Ingeniería Eléctrica: Se especializa en la generación,
+transmisión y distribución de la energía en áreas como las telecomunicaciones
+y la transmisión de señales satelitales.</p>
+
+<p>*Ingeniería Informática: Aplica conocimientos de las ciencias de la computación
+la electrónica y el software para crear y manipular dispositivos que procesan la
+información de manera automatizada.</p><br>
+
+<center><img  height=600px  src ="img/robotica.jpg"></center>
+
+<div id="main-container">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Algunas de las asignaturas que </th> <th>contempla la Ingeniería Mecatrónica</th> 
+                    </tr>
+                </thead>
+
+                <tr>
+                    <td>Cálculo Diferencial </td><td>Integral y Multivariado</td>
+                </tr>
+                <tr>
+                    <td>Probabilidad </td><td> Estadística.</td>
+                </tr>
+                <tr>
+                    <td>Álgebra lineal</td><td>Estática</td>
+                </tr>
+                <tr>
+                    <td>La Maquina de Vapor</td><td>Dinámica</td>
+                </tr>
+                <tr>
+                    <td>Termodinámica</td><td>Mecánica de Materiales</td>
+                </tr>
+                <tr>
+                    <td>Mecánica de Fluidos.</td><td>Diseño por computadora.</td>
+                </tr>
+                <tr>
+                    <td>Diseño de componentes mecánicos</td><td>Teoría de Contro</td>
+                </tr>
+                <tr>
+                    <td>Automatización</td><td>Robótica Industrial</td>
+                </tr>
+            </table>
+        </div>
+</table></center>
+<div id="cont_33deaddf50ee484ab8ccd7769da46c66"><script type="text/javascript" async src="https://www.meteored.mx/wid_loader/33deaddf50ee484ab8ccd7769da46c66"></script></div>
+<body bgcolor="#949AAA" text="#04184F"> 
+<center>
+<a href="#">Inicio</a>-
+<a href="mecatronica.html">Mecatronica</a>-
+<a href="importancia.html">Importancia</a>- 
+<a href="analisemos.html">Analisemos</a> <br>Mandamos un mensaje via email a
+<a href="mailto:zaidg4060@gmail">zaidg4060@gmail.com</a>
+
+
+
+</center>
+ <footer>
+                <div class="contenedor" align="center">
+                    <p class="copy"> Redes sociales</p>
+                    <div class="sociales">
+                        <a href="https://maps.app.goo.gl/HoFXk6fcK5uf3DJY7" target="_blank"><img src="./img/mapa.png" class="sociales"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100025975613973" target="_blank"><img src="./img/facebook.png" class="sociales"></a>
+                    </div>
+                </div>
+            </footer>
+</body> 
+</html>
