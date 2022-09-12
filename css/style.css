@@ -13,4 +13,19 @@ span {
   <h2>Background Colors</h2>
   <p>Try changing the background <span>colors</span>.</p>
 </div>
-    
+    .a {
+  background-image: url(balloons.jpg);
+}
+
+.b {
+  background-image: url(star.png);
+}
+    <div class="wrapper">
+  <div class="box a"></div>
+  <div class="box b"></div>
+</div>
+    .box {
+  background-image: url(star.png);
+  background-repeat: no-repeat;
+}
+<div class="box"></div>
