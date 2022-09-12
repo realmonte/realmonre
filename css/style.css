@@ -1,69 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
-* {
-    text-decoration: none;
+.box {
+  background-color: #567895;
 }
 
-body {
-    font-family: 'Roboto Mono', monospace !important;
-    background-color: #A00CD4;
-    color: #000000;
+h2 {
+  background-color: black;
+  color: white;
 }
-
-#main-container {
-    margin: 150px auto;
-    width: 800px;
+span {
+  background-color: rgba(255,255,255,.5);
 }
-
-table {
-    background-color: white;
-    text-align: left;
-    border-collapse: collapse;
-    width: 70%;
-}
-
-th,
-td {
-    padding: 20px;
-}
-
-thead {
-    background-color: #7da49c;
-    border-bottom: solid 5px #12c399;
-    color: white;
-}
-
-tr:nth-child(even) {
-    background-color: #ddd;
-}
-
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom: 25px;
-}
-
-.copy {}
-
-.sociales {
-    display: flex;
-    justify-content: center;
-    width: 50px;
-    text-align: center;
-    font-size: 28px;
-    margin: 10px;
-}
-
-.sociales a {
-    color: #6196FF;
-    text-decoration: none;
-}
-
-@media (min-width:1024px) {
-    .contenedor {
-        width: 1000px;
-    }
-}
-.as {
-    font-size: 26px;
-}
+    <div class="box">
+  <h2>Background Colors</h2>
+  <p>Try changing the background <span>colors</span>.</p>
+</div>
+    
