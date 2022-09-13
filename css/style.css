@@ -1,3 +1,14 @@
 body{
- background:tomato; 
+ font-family:georgia, times, serif;
+ color: #333;
+ font-size: 1,2rem;
+ line-height:1.6em;
+}
+p{
+ margin-bottom: 1.6em;
+}
+.contaider {
+ width: 85%;
+ max-width: 850px;
+ margin: 0 auto;
 }
