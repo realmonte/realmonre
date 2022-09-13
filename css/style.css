@@ -1,8 +1,12 @@
 body{
  font-family:georgia, times, serif;
- color: #333;
+ color: #0E0300;
  font-size: 1,2rem;
  line-height:1.6em;
+}
+h1 {
+ font-size:2rem; 
+ line-height: 1.3em;
 }
 p{
  margin-bottom: 1.6em;
