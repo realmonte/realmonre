@@ -60,11 +60,12 @@ box-shadow: 5rem.Srem Brem rgba(0,0,0,0.2);
 }
 .profile-img{
 	width: 11 rem;
-	height: 25 rem;
-	object-fit:cover ;
-	border - radius: 10 rem;
-	z-index: 99 rem;
-	border: 1rem solid #ebeef8;
+	height: 11 rem;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-top: -11 rem;
+	z-index: 999;
+	border: 1 px solid #ebeef8;
 }
 .card h1{
 font-size: 2.5rem;
