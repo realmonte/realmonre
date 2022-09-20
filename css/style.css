@@ -58,7 +58,7 @@ box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2);
 	height: 26rem;
 	object-fit: cover;
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
-        clip-path: polygon(0 0, 100% 0, 100% 34%, 0 75%);
+        clip-path: polygon(0 0, 100% 0, 100% 43%, 0 86%);
 }
 .profile-img{
 	width: 5 rem;
