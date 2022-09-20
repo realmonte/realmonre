@@ -30,7 +30,7 @@ position: relative;|
 content:"";
 width: 10rem;
 height: 8rem;
-background-color: #45e19f; 
+background-color: #361199; 
 position: absolute;
 bottom: -2rem;
 left: 50%;
@@ -56,7 +56,7 @@ box-shadow: 5rem.Srem Brem rgba(0,0,0,0.2);
 .card .card-img{
 	width: 100%;
 	height: 26rem;
-	clip-path: polygon(0 48%, 73% 0, 100% 50%, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 31%, 0 65%);
 }
 .profile-img{
 	width: 15 rem;
