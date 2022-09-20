@@ -51,7 +51,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 margin: 2rem 0;
-box-shadow: 5rem.Srem Brem rgba(0,0,0,0.2);
+clip-path: polygon(0 0, 100% 0, 100% 38%, 0 75%);
 }
 .card .card-img{
 	width: 100%;
