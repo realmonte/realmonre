@@ -1,65 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
-*{
-	text-decoration: none;
-	font-family: 'Roboto Mono', monospace !important;
 }
-body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
-#main-container {
-    margin: 150px auto;
-    width: 800px;
+html {
+font-size: 10px;
+font-family: "Roboto", sans-serif;
 }
-
-table { 
-    background-color: white;
-    text-align: left;
-    border-collapse: collapse;
-    width: 70%;
+a{
 }
-
-th,
-td {
-    padding: 20px;
+text-decoration: none; color: #fff;
+section{
+padding: 10rem 0; background-color: #fff;
 }
-
-thead {
-    background-color: #7da49c;
-    border-bottom: solid 5px #12c399;
-    color: white;
+.heading{
+text-transform: uppercase;
+font-size: 3.5rem;
+letter-spacing: 3px;
+margin-right: -3px;
+margin-bottom: 5rem;
+text-align: center;
+color: #333;
+position: relative;|
 }
 
-tr:nth-child(even) {
-    background-color: #ddd;
+.heading: :after{
+content:"";
+width: 10rem;
+height: 8rem;
+background-color: #45e19f; 
+position: absolute;
+bottom: -2rem;
+left: 50%;
+transform: translateX(-50%);
+border-radius: 2rem;
 }
-
-
-
-
-
-
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom: 25px;
+.card-wrapper{
+display: flex;
+align-items: center;
+align-content: center;
+flex-direction: column;
 }
-.copy {
-    font-size: 200px;
+.card{
+width: 32rem;
+background-color: #ebeef8;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 2rem 0;
+box-shadow: 5rem.Srem Brem rgba(0,0,0,0.2);
 }
-.sociales {
-	display: flex;
-	justify-content: center;
-    width: 50px;
-    text-align: center;
-    font-size: 28px;
-	margin: 10px;
-}
-.sociales a {
-    color: #6196FF;
-    text-decoration: none;
-}
-@media (min-width:1024px) {
-    .contenedor {
-        width: 1000px;
-    }
+.card .card-img{
+	width: 100%;
+	height: 26rem;
 }
