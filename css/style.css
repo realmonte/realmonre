@@ -59,8 +59,8 @@ box-shadow: 5rem.Srem Brem rgba(0,0,0,0.2);
 	clip-path: polygon(0 0, 100% 0, 100% 31%, 0 65%);
 }
 .profile-img{
-	width: 11 rem;
-	height: 11 rem;
+	width: 5 rem;
+	height: 5 rem;
 	object-fit: cover;
 	border-radius: 50%;
 	margin-top: -11 rem;
