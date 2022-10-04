@@ -1,142 +1,126 @@
-*
-{
-	background: #f1f2f6;
-	margin: 0;
-	padding: 0;
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  padding: 50px;
+  text-align: center;
 }
-
-.image-area
-{
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	position: absolute;
+.container{
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
+  background: linear-gradient(45deg, #7b00e0, #ae31d9);
 }
-
-.img-wrapper
-{
-	width: 300px;
-	height: 400px;
-	position: relative;
-	overflow: hidden;
+.container:hover{
+  height: 470px;
+  width: 350px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
 }
-
-.img-wrapper:before
-{
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 180%;
-	height: 100%;
-	width: 100%;
-	background: rgba(255,255,255,.3);
-	transform: skew(45deg);
-	z-index: 1;
-	transition: .5s;
+.container .wrapper img{
+  position: relative;
+  z-index: 20;
+  border-radius: 50%;
+  display: block;
+  height: 200px;
+  width: 200px;
+  border: 5px solid #fff;
+  object-fit: cover;
+  margin: 20px auto;
+  transition: all 0.3s ease;
 }
-
-.img-wrapper:hover:before
-{
-	left: -180%;
+.container:hover .wrapper img.active{
+  height: 470px;
+  width: 350px;
+  margin: 0px auto;
+  border: none;
+  border-radius: 5px;
 }
-
-.img-wrapper img
-{
-	height: 400px;
-	width: 300px;
-	filter: grayscale(100%);
-	transition: 2s;
+.wrapper .title{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 10px;
+  line-height: 25px;
 }
-.img-wrapper:hover img
-{
-	filter: grayscale(0%);
-	transform: scale(1.1);
+.wrapper .place{
+  color: #fff;
+  font-size: 17px;
+  line-height: 0px;
+  margin: 10px 0;
 }
-
-.img-wrapper h2
-{
-	background: tomato;
-	font-family: Poppins;
-	color: #fff;
-	text-align: center;
-	text-transform: uppercase;
-	margin: 0;
-	padding: 10px 0;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	transform: perspective(400px) rotateY(90deg);
-	transform-origin: right;
-	transition: 1s;
+.content{
+  color: #fff;
+  font-size: 17px;
+  margin-top: 10px;
+  padding: 1px 20px 10px 20px!important;
 }
-
-.img-wrapper:hover h2
-{
-	transform: perspective(400px) rotateY(0deg);
+.content .buttons{
+  display: flex;
 }
-
-.img-wrapper ul
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	background: rgba(255,255,255,0);
+.buttons .btn{
+  height: 40px;
+  width: 150px;
+  margin: 0 5px;
 }
-
-.img-wrapper ul li
-{
-	background: #333;
-	height: 40px;
-	width: 40px;
-	text-align: center;
-	line-height: 40px;
-	transform: perspective(800px) rotateY(90deg);
-	transition: .5s;
-	transform-origin: left;
+.buttons .btn button{
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: all 0.3s;
 }
-
-.img-wrapper:hover ul li
-{
-	transform: perspective(800px) rotateY(0deg);
+.btn button:hover{
+  transform: scale(0.95);
 }
-
-.img-wrapper:hover ul li:nth-child(1)
-{
-	transition-delay: .2s;
+.container .icons{
+  position: relative;
+  margin-top: -435px;
+  margin-left: 10px;
+  list-style: none;
 }
-
-.img-wrapper:hover ul li:nth-child(2)
-{
-	transition-delay: .6s;
+.container .icons.active{
+  display: none;
 }
-
-.img-wrapper:hover ul li:nth-child(3)
-{
-	transition-delay: .8s;
+.container .icons li{
+  height: 40px;
+  width: 40px;
+  margin: 5px 0;
+  opacity: 0;
+  margin-left: -100px;
+  transition: all 0.5s ease;
 }
-
-.img-wrapper:hover ul li:nth-child(4)
-{
-	transition-delay: 1s;
+.container:hover .icons li{
+  opacity: 1;
+  margin-left: 7px;
 }
-
-.img-wrapper ul li a
-{
-	color: tomato;
-	background: rgba(255,255,255,0);
+.container:hover .icons li:nth-child(2){
+  transition-delay: 0.2s;
 }
-
-.img-wrapper ul li i
-{
-	color: tomato;
-	background: rgba(255,255,255,0);
+.container:hover .icons li:nth-child(3){
+  transition-delay: 0.4s;
 }
-
-.img-wrapper ul li i:hover
-{
-	color: #fff;
-	background: rgba(255,255,255,0);
+.container .icons li a{
+  color: #7b00e0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background: #fff;
+  display: block;
+  line-height: 40px;
+  transition: all 0.3s;
+}
+.container .icons li a:hover{
+  transform: scale(0.9);
 }
